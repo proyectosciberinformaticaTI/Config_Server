@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: config-server
+  profiles:
+    active:
+    - context
+    - eureka
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/proyectosciberinformaticaTI/Proyecto_bootcamp
+      enabled: true
+  
