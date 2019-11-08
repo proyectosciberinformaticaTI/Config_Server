@@ -9,6 +9,6 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/proyectosciberinformaticaTI/Proyecto_bootcamp
+          uri: https://github.com/proyectosciberinformaticaTI/Proyecto_bootcamp.git
       enabled: true
   
